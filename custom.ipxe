@@ -4,7 +4,7 @@
 ###
 
 :start
-echo Intranet
+echo Intranet...
 sleep 10
 :option_two
 uppermem 1048576
