@@ -7,7 +7,8 @@
 echo Intranet
 sleep 10
 :option_two
-### kernel https://boot.netboot.xyz/memdisk raw iso
+uppermem 1048576
+kernel https://boot.netboot.xyz/memdisk raw iso
 ###sanboot http://192.168.2.143/p.iso
 initrd http://192.168.2.143/p.iso
 #kernel http://192.168.2.143/p/vmlinuz http_server=192.168.2.143:12345
