@@ -6,7 +6,11 @@
 :start
 echo Hello world!
 sleep 10
-goto custom_exit
+:option_two
+kernel https://boot.netboot.xyz/memdisk raw iso
+initrd http://192.168.2.143/p.iso
+boot || goto custom_exit
+
 
 :custom_exit
 exit 0
